@@ -1,6 +1,6 @@
-package A_Easy;
+package B_Medium;
 
-public class g_NumberOfZeroFilled {
+public class b_NumberOfZeroFilled {
     public long zeroFilledSubarray(int[] nums) {
         long count = 0;   // total number of zero-filled subarrays
         long streak = 0;  // current consecutive zero count
@@ -15,5 +15,5 @@ public class g_NumberOfZeroFilled {
         }
         return count;
     }
-
 }
+

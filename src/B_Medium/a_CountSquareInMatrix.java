@@ -14,8 +14,8 @@ public class a_CountSquareInMatrix {
                         dp[i][j] = 1;  // first row/col same as input
                     } else {
                         dp[i][j] = Math.min(
-                                Math.min(dp[i-1][j], dp[i][j-1]),
-                                dp[i-1][j-1]
+                                Math.min(dp[i - 1][j], dp[i][j - 1]),
+                                dp[i - 1][j - 1]
                         ) + 1;
                     }
                     total += dp[i][j]; // add contribution
@@ -23,6 +23,5 @@ public class a_CountSquareInMatrix {
             }
         }
         return total;
-
     }
 }
