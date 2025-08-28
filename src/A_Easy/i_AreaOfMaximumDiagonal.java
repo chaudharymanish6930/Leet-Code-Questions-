@@ -24,7 +24,6 @@ public class i_AreaOfMaximumDiagonal {
         }
         return maxArea;
     }
-
     public static void main(String[] args){
         int[][]  arr = {
                 {4,7},
